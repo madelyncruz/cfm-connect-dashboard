@@ -1,0 +1,140 @@
+{
+  "header": {
+    "buttons": {
+      "download": "Download CSV",
+      "sync": "Sync"
+    },
+    "sync": {
+      "confirm": "Are you sure to continue to the export page?"
+    },
+    "tabs": [
+      {
+        "title": "Overview"
+      },
+      {
+        "title": "Call efficiency"
+      }
+    ]
+  },
+  "caseStatus": {
+    "title": "Case status",
+    "text1": "Total cases",
+    "text2": "Open cases",
+    "text3": "Closed cases"
+  },
+  "filters": {
+    "dateContact": {
+      "label": "Dates of contact",
+      "placeholder": "Select date"
+    },
+    "dateResponse": {
+      "label": "Response time",
+      "placeholder": "Select date"
+    },
+    "ageGroup": "Age group",
+    "category": "Category",
+    "channel": "Channel",
+    "location": "Location",
+    "gender": "Gender",
+    "operator": "Operator",
+    "sector": "Sector",
+    "showMore": "More filters",
+    "showLess": "Less filters",
+    "status": {
+      "title": "Status",
+      "closed": "Closed",
+      "open": "Open"
+    }
+  },
+  "charts": {
+    "age": {
+      "title": "Respondents by age",
+      "minor": "0-17",
+      "adult": "18-59",
+      "elderly": "60+",
+      "unspecified": "Prefer not to say"
+    },
+    "anonymity": {
+      "title": "Anonymous"
+    },
+    "beneficiary": {
+      "title": "IOM beneficiary"
+    },
+    "disabilities": {
+      "title": "Disabilities"
+    },
+    "gender": {
+      "title": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "unspecified": "Unspecified"
+    },
+    "category": {
+      "title": "Category of feedback",
+      "legends": {
+        "cat1": "Category 1",
+        "cat2": "Category 2",
+        "cat3": "Category 3",
+        "cat4": "Category 4",
+        "cat5": "Category 5"
+      },
+      "details": "Click on the bar in the chart to view the individual categories"
+    },
+    "language": {
+      "title": "Language of communication"
+    },
+    "sector": {
+      "title": "Sector of feedback"
+    },
+    "channel": {
+      "title": "Channel of communication"
+    },
+    "maritalStatus": {
+      "title": "Marital status"
+    },
+    "region": {
+      "title": "Location",
+      "tooltip": "Total respondents"
+    },
+    "callDate": {
+      "title": "Calls by date"
+    },
+    "callsTotal": {
+      "title": "Total calls",
+      "respondendTo": "of calls have been responded to on time",
+      "avg": {
+        "suffix": "days",
+        "summary": "average time to complete a case"
+      },
+      "legends": {
+        "onTime": "On time",
+        "overdue": "Overdue"
+      }
+    }
+  },
+  "common": {
+    "csvDownloading": "Please wait while the data source is being downloaded",
+    "csvParsing": "Processing data in chunks",
+    "csvError": "The data source could not be retrieved. Please try reloading the page or synchronizing again.",
+    "unspecified": "Unspecified",
+    "map": {
+      "footnote": "This map is for illustrative purpose only. Names and boundaries do not imply official endorsement or acceptance by the United Nations and participating organizations."
+    },
+    "empty": {
+      "match": "No matches found.",
+      "option": "None"
+    },
+    "no": "No",
+    "yes": "Yes"
+  },
+  "site": {
+    "name": "CFM",
+    "title": "Call Center Dashboard"
+  },
+  "status": {
+    "file": {
+      "notFound": "File not found."
+    }
+  }
+}
