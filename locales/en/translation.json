@@ -5,7 +5,8 @@
       "sync": "Sync"
     },
     "sync": {
-      "confirm": "Are you sure to continue to the export page?"
+      "confirm": "Are you sure to continue to the export page?",
+      "last": "Last sync"
     },
     "tabs": [
       {
@@ -126,7 +127,9 @@
       "option": "None"
     },
     "no": "No",
-    "yes": "Yes"
+    "yes": "Yes",
+    "savePdf": "Save as PDF",
+    "savingPdf": "Saving PDF"
   },
   "site": {
     "name": "CFM",
