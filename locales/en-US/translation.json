@@ -39,6 +39,7 @@
     "gender": "Gender",
     "operator": "Operator",
     "sector": "Sector",
+    "sex": "Sex",
     "showMore": "More filters",
     "showLess": "Less filters",
     "status": {
@@ -74,11 +75,11 @@
     "category": {
       "title": "Category of feedback",
       "legends": {
-        "cat1": "Category 1",
-        "cat2": "Category 2",
-        "cat3": "Category 3",
-        "cat4": "Category 4",
-        "cat5": "Category 5"
+        "category1": "Category 1",
+        "category2": "Category 2",
+        "category3": "Category 3",
+        "category4": "Category 4",
+        "category5": "Category 5"
       },
       "details": "Click on the bar in the chart to view the individual categories"
     },
@@ -87,6 +88,13 @@
     },
     "sector": {
       "title": "Sector of feedback"
+    },
+    "sex": {
+      "title": "Sex",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "unspecified": "Unspecified"
     },
     "channel": {
       "title": "Channel of communication"
@@ -133,7 +141,7 @@
   },
   "site": {
     "name": "CFM",
-    "title": "Call Center Dashboard"
+    "title": "CFM Connect Dashboard"
   },
   "status": {
     "file": {
