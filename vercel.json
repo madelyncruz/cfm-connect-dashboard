@@ -2,18 +2,49 @@
   "headers": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Origin",
+          "value": "https://cfmconnect.iom.int"
+        }
+      ],
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "*"
+          "value": "https://cfmconnect.iom.int"
+        },
+        {
+          "key": "Access-Control-Allow-Credentials",
+          "value": "true"
         },
         {
           "key": "Access-Control-Allow-Methods",
           "value": "GET,OPTIONS"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Origin",
+          "value": "https://cfmcrm-test.factory.iomdev.org"
+        }
+      ],
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://cfmcrm-test.factory.iomdev.org"
         },
         {
-          "key": "Access-Control-Allow-Headers",
-          "value": "*"
+          "key": "Access-Control-Allow-Credentials",
+          "value": "true"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET,OPTIONS"
         }
       ]
     }
