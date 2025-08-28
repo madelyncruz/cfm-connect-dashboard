@@ -47,6 +47,30 @@
           "value": "GET,OPTIONS"
         }
       ]
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Origin",
+          "value": "https://cfm-connect.ddev.site:8443"
+        }
+      ],
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://cfm-connect.ddev.site:8443"
+        },
+        {
+          "key": "Access-Control-Allow-Credentials",
+          "value": "true"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET,OPTIONS"
+        }
+      ]
     }
   ]
 }
